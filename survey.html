@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A SURVEY FORM</title>
+    <link rel="stylesheet" href="survey.css">
+</head>
+<body>
+    <div class="SurveyContainer">
+        <h1>SURVEY FORM</h1>
+        <P>User Stories Survey Form</P>
+        <form action="">
+            <label>Name:</label>
+            <input type="text" placeholder="Enter Name" value="" required>
+            <br><br>
+            <label>E-Mail:</label>
+            <input type="text" placeholder="Enter E-Mail" value="" required>
+            <br><br>
+            <label>Work Experience:</label>
+            <input type="text" placeholder="Enter Number" value="" required>
+            <br><br>
+            <label for="InvestmentComfotability">Are you comfortable in investing in  real Estate on platform without first Investigating the property:</label>
+            <select name="InvestmentComfotability" id="" required>
+                <option value="" disabled selected>Selected an option</option>
+                <option value="Yes">YES</option>
+                <option value="NO">NO</option>
+                <option value="Not Sure">Not Sure</option>
+                <option value="50/50">50/50</option>
+
+            </select>
+            <br><br>
+            <label for="Suggestions">Suggestions to build trusted platform:</label>
+            <textarea name="Suggestions" id="" rows="4" cols="50" placeholder=""></textarea>
+            <br><br>
+            <label for="investmentType">You are ready to invest in:</label><br>
+            <label>
+                <input type="checkbox" value="">
+                Real Estate
+            </label><br>
+            <label>
+                <input type="checkbox">
+                Mutual Funds
+            </label><br>
+            <label>
+                <input type="checkbox">Crypto Currency
+            </label><br>
+            <label>
+                <input type="checkbox">Mutual Funds
+            </label><br><br>
+            <label>Are you ready for further Contact:</label>
+            <label><input type="radio" name="furtherContact" value="YES">YES</label>
+            <label><input type="radio" name="furtherContact" value="NO">NO</label>
+            <br><br>
+            <button type="submit">SUBMIT</button>
+        </form>
+        <br>
+        
+    </div>
+</body>
+</html>
